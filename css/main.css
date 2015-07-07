@@ -1,5 +1,7 @@
 body {
 	background-color: lightgrey;
+	padding: 0;
+	margin: 0;
 }
 div {
 	border: 1px solid chocolate;
@@ -28,7 +30,7 @@ div {
 
 /* INTRODUCTION SECTION */
 
-.introduction > .content {
+.header > .content {
 	background: #475159;
 	padding: 10rem 0;
 	text-align: center;
@@ -36,11 +38,51 @@ div {
 	color: #f2f2f2;
 }
 
-.introduction > .content > h1 {
-	color: #f2f2f2;
+.header > .content > h1 {
 	font-size: 3.125rem;
 }
 
-.introduction > .content > h3 {
+.header > .content > h3 {
 	font-size: 1.563rem;
 }
+
+/* ABOUT ME */
+
+.about-me {
+	font-family: 'Open Sans', sans-serif;
+	background: #F2F2F2;
+}
+.introduction-section > h1,
+.location-section > h1,
+.questions-section > h1 {
+	color: #0A7343;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.8rem;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 36em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+
+
+
