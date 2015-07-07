@@ -7,55 +7,37 @@ div {
 	border: 1px solid chocolate;
 }
 
-/* NAVIGATION BAR */
-
-.navigation-bar {
-	background-color: #585858;
-}
-
-.navigation-bar > .content {
-	width: 42rem;
-	margin: 0 auto;
-}
-
-.email {
-	float: right;
-	color: #F5F3EE;
-	margin-top:;
-}
-
-.email {
-	display: inline-block;
-}
-
 /* INTRODUCTION SECTION */
 
 .header > .content {
-	background: #475159;
+	background: url(https://download.unsplash.com/reserve/JaI1BywIT5Or8Jfmci1E_zakopane.jpg);
+	background-size: cover;
 	padding: 10rem 0;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	color: #f2f2f2;
+	color: #F2F2F2;
 }
 
 .header > .content > h1 {
 	font-size: 3.125rem;
+	font-weight: 100;
 }
 
 .header > .content > h3 {
 	font-size: 1.563rem;
+	font-weight: 100;
 }
 
 /* ABOUT ME */
 
 .about-me {
 	font-family: 'Open Sans', sans-serif;
-	background: #F2F2F2;
+	background: #768C87;
 }
 .introduction-section > h1,
 .location-section > h1,
 .questions-section > h1 {
-	color: #0A7343;
+	color: #282828;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.8rem;
@@ -64,7 +46,7 @@ div {
 .introduction-section,
 .location-section,
 .questions-section {
-  max-width: 36em;
+  max-width: 50rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
@@ -83,6 +65,44 @@ div {
   font-weight: bold;
 }
 
+/* PROJECTS */
 
+.projects {
+	background-color: #415359;
+	color: #EFF1C1;
+}
 
+.projects > .content {
+	width: 60rem;
+	margin: 0 auto;
+	overflow: auto;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.8rem;
+}
 
+.left-project {
+	width: 50%;
+	float: left;
+}
+
+.right-project {
+	width: 50%;
+	float: right;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color: #0E1F26;
+}
+
+.footer > .content {
+	padding: 5rem;
+	text-align: center;
+}
+
+.footer > .content > .email {
+	color: #F2F2F2;
+	font-size: 1.2rem;
+}
