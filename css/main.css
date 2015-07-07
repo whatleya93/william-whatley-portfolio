@@ -1,0 +1,46 @@
+body {
+	background-color: lightgrey;
+}
+div {
+	border: 1px solid chocolate;
+}
+
+/* NAVIGATION BAR */
+
+.navigation-bar {
+	background-color: #585858;
+}
+
+.navigation-bar > .content {
+	width: 42rem;
+	margin: 0 auto;
+}
+
+.email {
+	float: right;
+	color: #F5F3EE;
+	margin-top:;
+}
+
+.email {
+	display: inline-block;
+}
+
+/* INTRODUCTION SECTION */
+
+.introduction > .content {
+	background: #475159;
+	padding: 10rem 0;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #f2f2f2;
+}
+
+.introduction > .content > h1 {
+	color: #f2f2f2;
+	font-size: 3.125rem;
+}
+
+.introduction > .content > h3 {
+	font-size: 1.563rem;
+}
